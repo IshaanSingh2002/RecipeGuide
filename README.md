@@ -36,5 +36,5 @@ Once the application is running, you can:
 
 - Browse through the recipe collection.
 - Click on a recipe to view detailed instructions.
-- 
+
 Feel free to explore and customize the project to suit your needs!
