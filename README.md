@@ -6,7 +6,6 @@ Welcome to the Simple Recipe Guide project! This web application is designed to 
 - [Features](#features)
 - [Getting Started](#getting-started)
 - [Usage](#usage)
-- [License](#license)
 
 ## Features
 
@@ -23,3 +22,19 @@ To run this project locally, follow these steps:
 
    ```bash
    git clone https://github.com/your-username/simple-recipe-guide.git
+
+2. Open the project folder:
+
+   ```bash
+   cd simple-recipe-guide
+
+3. Open the wp project.html in your preferred web browser.
+
+## Usage
+Usage
+Once the application is running, you can:
+
+- Browse through the recipe collection.
+- Click on a recipe to view detailed instructions.
+- 
+Feel free to explore and customize the project to suit your needs!
