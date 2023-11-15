@@ -1,0 +1,151 @@
+body
+{
+    background-image: linear-gradient(to right,rgb(53,46,46), rgb(47, 65, 16));
+    color: rgb(105, 96, 96);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left:auto;
+    margin-right:auto;
+}
+.h1
+{ 
+    color: olive;
+    position: absolute;
+    top: 45px;
+    position:absolute;
+    font-size:30px;
+    font-family:'Trocchi', serif;
+    letter-spacing: -1px;
+    text-shadow: 1px;
+    line-height: 1;
+    text-align: center;
+    border-width: 20px;
+    border-color:blanchedalmond;
+    width: 100%;
+}
+.h1:hover {
+  transform: scale(1.1);
+  transition: all 0.5s;
+}
+
+/* Add a black background color to the top navigation */
+.topnav 
+  {
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a 
+  {
+    float: right;
+    color: olive;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover 
+  {
+    background-color: olive;
+    color: black;
+    top: auto;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: olive;
+    color: white;
+  }
+  .topnav .icon 
+  {
+    display: none;
+  }
+.wrapper 
+{
+    display: grid;
+    grid-template-rows: 250px 250px;
+    grid-template-columns: 250px 250px 250px;
+    grid-gap: 30px;
+    /*background-color: rgb(53, 46, 46);*/
+    color: #444;
+    position: absolute;
+    left: 280px;
+    top: 100px;
+}
+.box{
+    background-color: #444;
+    color:olivedrab;
+    font-family: 'Trocchi', serif;
+    border-radius: 10px;
+    padding: 20px; 
+    font-size: 100%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+.column {
+  flex: 100%;
+  max-width: 100%;
+} 
+.column img {
+  vertical-align: middle;
+}
+.container {
+  position: relative;
+  width: 100%;
+}
+.image {
+  display: block;
+  width: 250px;
+  height: 250px;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 250px;
+  width: 250px;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: black;
+}
+.container:hover .overlay {
+  opacity: 0.5;
+}
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+/* Tablet Styles */
+@media only screen and (min-width: 480px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 1024px) {
+  .column {
+    flex: 33.3%;
+    max-width: 33.3%;
+  }
+}
